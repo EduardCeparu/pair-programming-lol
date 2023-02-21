@@ -1,0 +1,25 @@
+<div class="container-fluid champsContainer gap-1 p-2">
+  <ng-container class="container" *ngFor="let item of champions">
+ 
+    <div class="row">
+        <div class="card text-center bg-dark animate__animated animate__fadeInUp col-sm-3 col-md-6 col-lg-4">
+            <div class="overflow">
+            <img
+            src='assets/img/{{item.name}}_0.jpg'
+            alt="a wallpaper"
+            class="card-img-top"
+            />
+            </div>
+        <div class="card-body text-light">
+            <h4 class="card-title">{{ item.name }}</h4>
+            <p class="card-text text-secondary textLimit">{{ item.desc }}</p>
+            <a 
+            (click)="goToGuide(item.name)"
+            class="btn btn-warning border-0"
+            >Play
+            </a>
+            </div>
+        </div>
+        </div>
+    </ng-container>
+</div>
