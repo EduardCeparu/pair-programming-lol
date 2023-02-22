@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     const data = null;
+
+const xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+
+xhr.addEventListener("readystatechange", function () {
+	if (this.readyState === this.DONE) {
+		console.log(this.responseText);
+	}
+});
+
+xhr.open("GET", "https://mobafire-lol-builds.p.rapidapi.com/api/champions/kayle-2/counters");
+xhr.setRequestHeader("X-RapidAPI-Key", "c90aca9d69msh5d3987142d6506bp145e10jsnc3faf62fe21c");
+xhr.setRequestHeader("X-RapidAPI-Host", "mobafire-lol-builds.p.rapidapi.com");
+
+xhr.send(data);
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.mainGuideContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("http://lol-stats.net/uploads/X0geMjIXBEZOVO5U7CvrqJW3shfN1NaI57cmgyxZ.jpeg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.tittleSection{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 50px;
+}

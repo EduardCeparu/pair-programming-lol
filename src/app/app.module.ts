@@ -7,10 +7,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { ChampionsComponent } from './components/champions/champions.component';
 import { GuidesComponent } from './components/guides/guides.component';
+import { GuideBoxComponent } from './components/guide-box/guide-box.component';
 
 
 const routes:Routes=[
-  {path: 'champions', component:ChampionsComponent},
+  {path: '', component:ChampionsComponent},
   {path: 'guides/:name', component:GuidesComponent}
 ]
 
@@ -18,7 +19,8 @@ const routes:Routes=[
   declarations: [
     AppComponent,
     ChampionsComponent,
-    GuidesComponent
+    GuidesComponent,
+    GuideBoxComponent
   ],
   imports: [
     BrowserModule,

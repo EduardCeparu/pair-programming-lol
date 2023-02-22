@@ -1,0 +1,63 @@
+.guideContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: fit-content;
+    flex-direction: column;
+    background-color: rgb(159, 151, 151);
+}
+.guideContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: rgb(130, 126, 126); */
+}
+.linkTutorial{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.btn-tutorial:hover{
+    background-color: rgb(26, 89, 26);
+}
+.skillOrder span, .itemOrder span{
+    margin: 0px 10px;
+}
+.itemOrder{
+    margin-bottom: 20px;
+}
+.textSkillOrder p{
+   padding: 0px 35px;
+}
+
+
+/* runes */
+.runes{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+}
+.runesPrimary{
+    color: red;
+}
+.runesSecondary{
+    color: yellow;
+}
+.primarySecondaryRunesImages{
+    height: 64px;
+    width: 64px;
+}
+.bonusRunes{
+    height: 50px;
+    width: 50px;
+}
+.electrocuteImage{
+    height: 75px;
+    width: 75px;
+}
+.itemsImages{
+    height: 80px;
+    width: 80px;
+}
