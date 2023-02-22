@@ -8,10 +8,12 @@ import { FormsModule } from '@angular/forms';
 import { ChampionsComponent } from './components/champions/champions.component';
 import { GuidesComponent } from './components/guides/guides.component';
 import { GuideBoxComponent } from './components/guide-box/guide-box.component';
+import { HeaderComponent } from './components/header/header.component';
+import { HomeComponent } from './components/home/home.component';
 
 
 const routes:Routes=[
-  {path: '', component:ChampionsComponent},
+  {path: '', component:HomeComponent},
   {path: 'guides/:name', component:GuidesComponent}
 ]
 
@@ -20,7 +22,9 @@ const routes:Routes=[
     AppComponent,
     ChampionsComponent,
     GuidesComponent,
-    GuideBoxComponent
+    GuideBoxComponent,
+    HeaderComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

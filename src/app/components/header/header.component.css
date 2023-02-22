@@ -1,0 +1,27 @@
+@font-face{
+    font-family: lolFont;
+    src: url(//db.onlinewebfonts.com/c/c8e8fcd5d85d9b587022fe0a79809b73?family=Friz+Quadrata);
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 50px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:visited{
+    text-decoration: none;
+}
+.nombre{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.champs{
+    margin-top: 10px;
+}
+.title{
+    font-family: lolFont;
+}
